@@ -1,0 +1,45 @@
+#rdts2{
+    width: 300px;
+}
+
+.dropdown {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+
+}
+.dropdown-select {
+    width: 300px;
+    font-size: 1.2em;
+    color: rgb(2, 25, 58);
+}
+
+.tag-list {
+    display: flex;
+    flex-direction: column-reverse;
+    background: transparent;
+}
+
+.tag-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag-remove {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background: transparent;
+    color: red;
+    font-size: 1em;
+}
+
+.tag-remove:hover {
+    background: transparent;
+    color: rgb(132, 4, 4);
+}
+
+.dropdown-content {
+    width: 250px;
+    color: rgb(10, 5, 37);
+}
